@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hotel Rolex</title>
+    <!--Font-->
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pricing-section">
+      </div>
+      <div class="select-section">
+        <form action="select.php" method="POST">
+          <h5>Reservation Request Form</h5>
+          <input type="text" name="name" placeholder="Name" style="width: 100%" required/>
+          <br>
+          <input type="text" name="address" placeholder="Address" style="width: 100%" required/>
+          <br>
+          <input type="number" name="pin" placeholder="Pin code" style="width: 100%" required/>
+          <br>
+          <input type="text" name="number" placeholder="Phone" style="width: 100%" required/>
+          <br>
+          <label for="roomName">Room</label>
+          <select name="roomName" id="roomName" style="width: 100%">
+            <option>P01</option>
+            <option>P02</option>
+            <option>P03</option>
+          </select>
+          <br />
+          <input class="button-primary" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

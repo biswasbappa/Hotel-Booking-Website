@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check in</title>
+     <!--Font-->
+     <link
+     href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+     rel="stylesheet"
+     type="text/css"
+   />
+   <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   />
+   <!--Favicon-->
+   <!-- <link rel="icon" type="image/png" href="images/favicon.png" /> -->
+   <!--CSS-->
+   <link rel="stylesheet" href="css/normalize.css" />
+   <link rel="stylesheet" href="css/skeleton.css" />
+   <link rel="stylesheet" href="css/custom.css" />
+
+</head>
+<body>
+    <section class="login-section">
+        <h3 class="title">
+          <i class="fa fa-user" aria-hidden="true"></i><br />User Login
+        </h3>
+        <hr />
+        <form action="user_check.php" method="POST">
+          <input type="text" name="phone" placeholder="Phone" required />
+          <br />
+          <button class="button">
+            Check In <i class="fa fa-sign-in" aria-hidden="true"></i>
+          </button>
+        </form>
+    </section>
+</body>
+</html>
